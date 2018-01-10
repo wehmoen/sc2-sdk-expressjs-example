@@ -1,0 +1,14 @@
+{% extends 'layout.twig' %}
+
+{% block body %}
+    <h1>Welcome to the SteemConnect v2 ExpressJS Example Application</h1>
+
+    {% if session %}
+        <p>Hello {{ session.user }}! You successfully logged in. </p>
+        <a href="/oauth/logout">Logout</a>
+    {% else %}
+        <p>
+        <a href="/oauth/login">Please LogIn</a>
+    {% endif %}
+    </p>
+{% endblock %}
