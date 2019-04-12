@@ -12,7 +12,7 @@
     "express": "~4.15.5",
     "express-session": "^1.15.6",
     "morgan": "~1.9.0",
-    "sc2-sdk": "^1.0.2",
+    "steemconnect": "^2.0.1",
     "serve-favicon": "~2.4.5",
     "twig": "~0.10.3"
   }
