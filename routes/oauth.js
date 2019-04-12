@@ -1,6 +1,6 @@
 let express = require('express');
 let router = express.Router();
-let sc2 = require('sc2-sdk');
+let sc2 = require('steemconnect');
 let config = require("../config");
 
 let steem = sc2.Initialize({
